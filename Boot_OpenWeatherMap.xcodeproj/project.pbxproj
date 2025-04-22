@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C63D3AF2DB82EF800CBE988 /* WeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C63D3AE2DB82EF800CBE988 /* WeatherClient.swift */; };
 		0CCBE1BB2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBE1BA2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift */; };
 		0CCBE1BD2DB7A6D700AABC0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBE1BC2DB7A6D700AABC0F /* ContentView.swift */; };
 		0CCBE1BF2DB7A6D900AABC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCBE1BE2DB7A6D900AABC0F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C63D3AE2DB82EF800CBE988 /* WeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClient.swift; sourceTree = "<group>"; };
 		0CCBE1B72DB7A6D700AABC0F /* Boot_OpenWeatherMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boot_OpenWeatherMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCBE1BA2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boot_OpenWeatherMapApp.swift; sourceTree = "<group>"; };
 		0CCBE1BC2DB7A6D700AABC0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				0CCBE1CE2DB7ABF700AABC0F /* APIEndPoint.swift */,
 				0CCBE1D12DB7B8EF00AABC0F /* GeocodingClient.swift */,
+				0C63D3AE2DB82EF800CBE988 /* WeatherClient.swift */,
 			);
 			path = Clients;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				0CCBE1BD2DB7A6D700AABC0F /* ContentView.swift in Sources */,
 				0CCBE1CF2DB7ABF700AABC0F /* APIEndPoint.swift in Sources */,
+				0C63D3AF2DB82EF800CBE988 /* WeatherClient.swift in Sources */,
 				0CCBE1D22DB7B8EF00AABC0F /* GeocodingClient.swift in Sources */,
 				0CCBE1CB2DB7A81300AABC0F /* Secrets.swift in Sources */,
 				0CCBE1BB2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift in Sources */,

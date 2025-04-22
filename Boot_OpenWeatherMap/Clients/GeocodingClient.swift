@@ -11,7 +11,8 @@ enum NetworkError: Error {
 struct GeocodingClient {
     
     func coordinatesByCity(_ city: String) async throws -> Location? {
-        let (data, response) = try await URLSession.shared.data(from: APIEndPoint.endpointURL(for: .coordinatesByCity(city)))
+        let url = APIEndPoint.endpointURL(for: .coordinatesByCity(city))
+        let (data, response) = try await URLSession.shared.data(from: url)
         
         guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 
         else {
