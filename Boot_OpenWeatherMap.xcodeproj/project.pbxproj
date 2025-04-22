@@ -11,6 +11,8 @@
 		0CCBE1BD2DB7A6D700AABC0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBE1BC2DB7A6D700AABC0F /* ContentView.swift */; };
 		0CCBE1BF2DB7A6D900AABC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCBE1BE2DB7A6D900AABC0F /* Assets.xcassets */; };
 		0CCBE1C22DB7A6D900AABC0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCBE1C12DB7A6D900AABC0F /* Preview Assets.xcassets */; };
+		0CCBE1C92DB7A77500AABC0F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0CCBE1C82DB7A77500AABC0F /* README.md */; };
+		0CCBE1CB2DB7A81300AABC0F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBE1CA2DB7A81300AABC0F /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0CCBE1BC2DB7A6D700AABC0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CCBE1BE2DB7A6D900AABC0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CCBE1C12DB7A6D900AABC0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CCBE1C82DB7A77500AABC0F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0CCBE1CA2DB7A81300AABC0F /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		0CCBE1AE2DB7A6D700AABC0F = {
 			isa = PBXGroup;
 			children = (
+				0CCBE1C82DB7A77500AABC0F /* README.md */,
 				0CCBE1B92DB7A6D700AABC0F /* Boot_OpenWeatherMap */,
 				0CCBE1B82DB7A6D700AABC0F /* Products */,
 			);
@@ -53,6 +58,7 @@
 			children = (
 				0CCBE1BA2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift */,
 				0CCBE1BC2DB7A6D700AABC0F /* ContentView.swift */,
+				0CCBE1CA2DB7A81300AABC0F /* Secrets.swift */,
 				0CCBE1BE2DB7A6D900AABC0F /* Assets.xcassets */,
 				0CCBE1C02DB7A6D900AABC0F /* Preview Content */,
 			);
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCBE1C92DB7A77500AABC0F /* README.md in Resources */,
 				0CCBE1C22DB7A6D900AABC0F /* Preview Assets.xcassets in Resources */,
 				0CCBE1BF2DB7A6D900AABC0F /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CCBE1BD2DB7A6D700AABC0F /* ContentView.swift in Sources */,
+				0CCBE1CB2DB7A81300AABC0F /* Secrets.swift in Sources */,
 				0CCBE1BB2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
