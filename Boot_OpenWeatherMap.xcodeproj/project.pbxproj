@@ -15,6 +15,7 @@
 		0CCBE1CB2DB7A81300AABC0F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBE1CA2DB7A81300AABC0F /* Secrets.swift */; };
 		0CCBE1CD2DB7AA1400AABC0F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBE1CC2DB7AA1400AABC0F /* Model.swift */; };
 		0CCBE1CF2DB7ABF700AABC0F /* APIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBE1CE2DB7ABF700AABC0F /* APIEndPoint.swift */; };
+		0CCBE1D22DB7B8EF00AABC0F /* GeocodingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBE1D12DB7B8EF00AABC0F /* GeocodingClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0CCBE1CA2DB7A81300AABC0F /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		0CCBE1CC2DB7AA1400AABC0F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0CCBE1CE2DB7ABF700AABC0F /* APIEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoint.swift; sourceTree = "<group>"; };
+		0CCBE1D12DB7B8EF00AABC0F /* GeocodingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,7 @@
 			children = (
 				0CCBE1BA2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift */,
 				0CCBE1BC2DB7A6D700AABC0F /* ContentView.swift */,
-				0CCBE1CE2DB7ABF700AABC0F /* APIEndPoint.swift */,
+				0CCBE1D02DB7B8CB00AABC0F /* Clients */,
 				0CCBE1CC2DB7AA1400AABC0F /* Model.swift */,
 				0CCBE1CA2DB7A81300AABC0F /* Secrets.swift */,
 				0CCBE1BE2DB7A6D900AABC0F /* Assets.xcassets */,
@@ -77,6 +79,15 @@
 				0CCBE1C12DB7A6D900AABC0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CCBE1D02DB7B8CB00AABC0F /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				0CCBE1CE2DB7ABF700AABC0F /* APIEndPoint.swift */,
+				0CCBE1D12DB7B8EF00AABC0F /* GeocodingClient.swift */,
+			);
+			path = Clients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			files = (
 				0CCBE1BD2DB7A6D700AABC0F /* ContentView.swift in Sources */,
 				0CCBE1CF2DB7ABF700AABC0F /* APIEndPoint.swift in Sources */,
+				0CCBE1D22DB7B8EF00AABC0F /* GeocodingClient.swift in Sources */,
 				0CCBE1CB2DB7A81300AABC0F /* Secrets.swift in Sources */,
 				0CCBE1BB2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift in Sources */,
 				0CCBE1CD2DB7AA1400AABC0F /* Model.swift in Sources */,
