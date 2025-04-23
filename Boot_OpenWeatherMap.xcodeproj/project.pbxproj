@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3E21EB2DB8F3A0005009B7 /* MeasurementFormatter_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3E21EA2DB8F3A0005009B7 /* MeasurementFormatter_extension.swift */; };
 		0C63D3AF2DB82EF800CBE988 /* WeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C63D3AE2DB82EF800CBE988 /* WeatherClient.swift */; };
 		0CCBE1BB2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBE1BA2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift */; };
 		0CCBE1BD2DB7A6D700AABC0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBE1BC2DB7A6D700AABC0F /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3E21EA2DB8F3A0005009B7 /* MeasurementFormatter_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementFormatter_extension.swift; sourceTree = "<group>"; };
 		0C63D3AE2DB82EF800CBE988 /* WeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClient.swift; sourceTree = "<group>"; };
 		0CCBE1B72DB7A6D700AABC0F /* Boot_OpenWeatherMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boot_OpenWeatherMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCBE1BA2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boot_OpenWeatherMapApp.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3E21E92DB8F37D005009B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0C3E21EA2DB8F3A0005009B7 /* MeasurementFormatter_extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		0CCBE1AE2DB7A6D700AABC0F = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 				0CCBE1BC2DB7A6D700AABC0F /* ContentView.swift */,
 				0CCBE1D02DB7B8CB00AABC0F /* Clients */,
 				0CCBE1CC2DB7AA1400AABC0F /* Model.swift */,
+				0C3E21E92DB8F37D005009B7 /* Extensions */,
 				0CCBE1CA2DB7A81300AABC0F /* Secrets.swift */,
 				0CCBE1BE2DB7A6D900AABC0F /* Assets.xcassets */,
 				0CCBE1C02DB7A6D900AABC0F /* Preview Content */,
@@ -169,6 +180,7 @@
 				0C63D3AF2DB82EF800CBE988 /* WeatherClient.swift in Sources */,
 				0CCBE1D22DB7B8EF00AABC0F /* GeocodingClient.swift in Sources */,
 				0CCBE1CB2DB7A81300AABC0F /* Secrets.swift in Sources */,
+				0C3E21EB2DB8F3A0005009B7 /* MeasurementFormatter_extension.swift in Sources */,
 				0CCBE1BB2DB7A6D700AABC0F /* Boot_OpenWeatherMapApp.swift in Sources */,
 				0CCBE1CD2DB7AA1400AABC0F /* Model.swift in Sources */,
 			);
