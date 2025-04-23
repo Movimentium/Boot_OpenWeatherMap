@@ -23,7 +23,8 @@ struct ContentView: View {
                 }
             Spacer()
             if let weather {
-                Text("\(weather.temp)")
+                Text(MeasurementFormatter.temperature(value: weather.temp))
+                    .font(.system(size: 100))
             }
             Spacer()
         }
